@@ -1,0 +1,13 @@
+{
+  "name": "automated-ui-tests",
+  "version": "1.0.0",
+  "description": "It's educational project to study with Mocha, Chai, Puppeteer to test UI",
+  "main": "index.js",
+  "author": "<alperentrkz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "puppeteer": "^2.1.1"
+  }
+}
