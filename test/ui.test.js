@@ -222,7 +222,7 @@ describe("Browser Tests", function() {
                 expect(await isWarningMessageShowing()).to.be.true;
             });
 
-            describe.only("Check form whole functionality", function() {
+            describe("Check form whole functionality", function() {
                 beforeEach(async function() {
                     await page.type(SEARCH_INPUT_SELECTOR, SEARCH_INPUT_CONCERT_VALUE);
                     await getAndClickSelectboxElementAtFirst();

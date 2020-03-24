@@ -36,6 +36,11 @@ async function isWarningMessageShowing(page) {
 }
 
 async function reloadPage(page) {
+    if (page.isClosed()) {
+        return Promise.resolve();
+    }
+
+    
     await page.reload({ waitUntil: ["networkidle0", "domcontentloaded"] });
 
     return Promise.resolve();
