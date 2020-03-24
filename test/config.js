@@ -1,5 +1,5 @@
 const BROWSER_DEFAULT_OPTIONS = {
-    headless: true,
+    headless: false,
     slowMo: 0,
     timeout: 0,
     args: ['--start-maximized', '--window-size=1920,1040'] 
