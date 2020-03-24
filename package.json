@@ -8,6 +8,11 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^7.1.1",
+    "mocha-simple-html-reporter": "^1.1.0",
     "puppeteer": "^2.1.1"
+  },
+  "scripts": {
+    "test": "mocha --timeout 0",
+    "test:report": "mocha --timeout 0 --reporter mocha-simple-html-reporter --reporter-options output=report.html"
   }
 }
